@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+	<grants />
+	<permissions />
+	<actions>
+        <action name="dispDocumentlockerAdminConfig" type="view" admin_index="true" menu_name="menu_documentlocker" menu_index="true" />
+        <action name="dispDocumentlockerAdminTabEx" type="view" />
+        <action name="procDocumentlockerAdminInsertConfig" type="controller" />
+    </actions>
+    <menus>
+        <menu name="menu_documentlocker" type="all">
+            <title xml:lang="ko">Document Locker</title>
+            <title xml:lang="en">Document Locker</title>
+        </menu>
+    </menus>
+</module>
